@@ -34,7 +34,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: 11
-          distribution: "oracle"
+          distribution: "adopt"
       - name: Check License Header
         uses: korandoru/hawkeye@v6
       - name: Set up Python

@@ -36,7 +36,7 @@ jobs:
           java-version: 11
           distribution: "adopt"
       - name: Check License Header
-        uses: korandoru/hawkeye@v6
+        uses: korandoru/hawkeye@v3
       - name: Set up Python
         uses: actions/setup-python@v2
         with:

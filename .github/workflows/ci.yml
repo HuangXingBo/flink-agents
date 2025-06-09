@@ -36,7 +36,8 @@ jobs:
           java-version: 21
           distribution: "oracle"
       - name: Check License Header
-        uses: korandoru/hawkeye@v3
+        uses: apache/skywalking-eyes/header@main
+#        uses: korandoru/hawkeye@v3
       - name: Set up Python
         uses: actions/setup-python@v2
         with:

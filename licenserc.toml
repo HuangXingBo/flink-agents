@@ -16,3 +16,5 @@
 # under the License.
 
 headerPath = "Apache-2.0.txt"
+
+excludes = ["NOTICE", "*.txt", ]

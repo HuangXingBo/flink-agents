@@ -28,4 +28,12 @@ under the License.
     <artifactId>runtime</artifactId>
     <name>Flink Agents : Runtime</name>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>pemja</artifactId>
+            <version>0.5.1</version>
+        </dependency>
+    </dependencies>
+
 </project>
